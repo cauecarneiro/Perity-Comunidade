@@ -1,0 +1,39 @@
+name: Relatar um problema
+description: Algo não funciona como esperado (sem dados pessoais, por favor)
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Antes de enviar:** não cole Client ID/Secret, `itemId`, extratos, saldos, nomes, CPF nem prints com os seus
+        valores. Se precisar mostrar números, invente valores parecidos.
+  - type: textarea
+    id: o-que-aconteceu
+    attributes:
+      label: O que aconteceu
+      description: Descreva o sintoma. Mensagens de erro do app podem ser coladas, depois de conferir que não têm dados seus.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para repetir
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Xcode, iOS e macOS
+      placeholder: "Xcode 26.x, iOS 26.x, macOS 26.x"
+  - type: dropdown
+    id: icloud
+    attributes:
+      label: iCloud ligado (PERITY_ICLOUD=true)?
+      options: ["Não", "Sim", "Não sei"]
+  - type: checkboxes
+    id: confirmacoes
+    attributes:
+      label: Confirmações
+      options:
+        - label: Não incluí chaves, itemId, extratos nem prints com dados reais.
+          required: true

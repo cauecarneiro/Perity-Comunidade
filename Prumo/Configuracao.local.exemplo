@@ -1,0 +1,14 @@
+# Copie para "Configuracao.local" (o configurar.sh faz isso por você). Esse arquivo NÃO vai para o git.
+# Nunca coloque aqui o Client ID nem o Client Secret da Pluggy: eles ficam só no Keychain, dentro do app.
+
+# Prefixo dos identificadores do app, no formato de domínio ao contrário. Precisa ser só seu.
+# Exemplo: com.joaosilva  (o app vira com.joaosilva.prumo)
+PERITY_BUNDLE_PREFIX=com.seunome
+
+# ID da sua equipe de assinatura (10 letras e números, em developer.apple.com > Membership). Pode ficar vazio:
+# nesse caso você escolhe a equipe no Xcode (Signing & Capabilities).
+PERITY_TEAM_ID=
+
+# true só se você tem conta de desenvolvedor paga e quer sincronizar iPhone e Mac pelo iCloud.
+# false: os dados ficam só no aparelho (funciona com conta gratuita).
+PERITY_ICLOUD=false

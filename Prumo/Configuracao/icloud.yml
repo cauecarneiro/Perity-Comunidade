@@ -1,0 +1,20 @@
+# Entra no projeto só quando PERITY_ICLOUD=true (conta de desenvolvedor paga). Sem isso o app
+# guarda tudo só no aparelho. Veja Scripts/configurar.sh.
+targets:
+  Prumo:
+    info:
+      path: App/iOS/Info.plist
+      properties:
+        # Notificação silenciosa do CloudKit: só faz sentido (e só vale) com o iCloud ligado.
+        UIBackgroundModes: [remote-notification]
+    entitlements:
+      properties:
+        com.apple.developer.icloud-container-identifiers: ["iCloud.${PERITY_BUNDLE_PREFIX}.prumo"]
+        com.apple.developer.icloud-services: [CloudKit]
+        aps-environment: development
+  PrumoMac:
+    entitlements:
+      properties:
+        com.apple.developer.icloud-container-identifiers: ["iCloud.${PERITY_BUNDLE_PREFIX}.prumo"]
+        com.apple.developer.icloud-services: [CloudKit]
+        com.apple.developer.aps-environment: development

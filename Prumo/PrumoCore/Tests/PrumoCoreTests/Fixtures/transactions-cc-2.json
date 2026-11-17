@@ -1,0 +1,4 @@
+{"results":[
+ {"id":"tx-3","description":"IFOOD *RESTAURANTE","amount":-54.90,"date":"2026-10-11T00:00:00.000Z","type":"DEBIT","status":"POSTED","currencyCode":"BRL","accountId":"acc-cc"},
+ {"id":"tx-4","description":"Pix enviado Titular Conta Poupanca","amount":-100,"date":"2026-10-12T00:00:00.000Z","type":"DEBIT","status":"PENDING","currencyCode":"BRL","accountId":"acc-cc","paymentData":{"payer":{"name":"TITULAR TESTE","documentNumber":{"type":"CPF","value":"12345678909"}},"receiver":{"name":"TITULAR TESTE","documentNumber":{"type":"CPF","value":"12345678909"}},"paymentMethod":"PIX"}}
+],"next":null}

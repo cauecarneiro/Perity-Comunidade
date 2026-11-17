@@ -1,0 +1,6 @@
+{"results":[
+ {"id":"ctx-1","description":"NETFLIX.COM","amount":55.90,"date":"2026-10-02T00:00:00.000Z","type":"DEBIT","status":"POSTED","currencyCode":"BRL","accountId":"acc-card","creditCardMetadata":{"installmentNumber":1,"totalInstallments":1,"billId":"bill-1","purchaseDate":"2026-10-02T00:00:00.000Z","cardNumber":"4821"}},
+ {"id":"ctx-2","description":"Pagamento recebido","amount":-1500.00,"date":"2026-10-10T00:00:00.000Z","type":"CREDIT","status":"POSTED","currencyCode":"BRL","accountId":"acc-card"},
+ {"id":"ctx-3","description":"Estorno compra MERCADOLIVRE","amount":-89.90,"date":"2026-10-08T00:00:00.000Z","type":"CREDIT","status":"POSTED","currencyCode":"BRL","accountId":"acc-card"},
+ {"id":"ctx-4","description":"APPLE STORE NOTEBOOK PARC 3/10","amount":489.90,"date":"2026-10-06T00:00:00.000Z","type":"DEBIT","status":"POSTED","currencyCode":"BRL","accountId":"acc-card","creditCardMetadata":{"installmentNumber":3,"totalInstallments":10,"totalAmount":4899.00,"billId":"bill-1"}}
+],"next":null}

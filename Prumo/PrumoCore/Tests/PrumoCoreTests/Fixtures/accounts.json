@@ -1,0 +1,4 @@
+{"page":1,"total":2,"totalPages":1,"results":[
+ {"id":"acc-cc","type":"BANK","subtype":"CHECKING_ACCOUNT","number":"1234-5","name":"Conta Corrente","marketingName":"Conta Corrente","balance":2540.37,"itemId":"11111111-aaaa-4aaa-8aaa-111111111111","taxNumber":"123.456.789-09","owner":"TITULAR TESTE","currencyCode":"BRL","bankData":{"transferNumber":"0001/1234-5","closingBalance":2540.37}},
+ {"id":"acc-card","type":"CREDIT","subtype":"CREDIT_CARD","number":"**** **** **** 4821","name":"Cartão Platinum","balance":1830.55,"itemId":"11111111-aaaa-4aaa-8aaa-111111111111","currencyCode":"BRL","creditData":{"brand":"VISA","balanceCloseDate":"2026-10-03T00:00:00.000Z","balanceDueDate":"2026-10-10T00:00:00.000Z","availableCreditLimit":8169.45,"minimumPayment":260.00,"creditLimit":10000}}
+]}

@@ -1,0 +1,4 @@
+{"results":[
+ {"id":"tx-1","description":"SALARIO EMPRESA XYZ","amount":9800.00,"date":"2026-10-05T00:00:00.000Z","type":"CREDIT","status":"POSTED","currencyCode":"BRL","accountId":"acc-cc","category":"Income"},
+ {"id":"tx-2","description":"PAGAMENTO DE FATURA CARTAO","amount":-1500.00,"date":"2026-10-10T00:00:00.000Z","type":"DEBIT","status":"POSTED","currencyCode":"BRL","accountId":"acc-cc"}
+],"next":"?accountId=acc-cc&after=CURSOR2"}

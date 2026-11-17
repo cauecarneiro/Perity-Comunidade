@@ -1,0 +1,46 @@
+# Projeto gerado (sempre recriar com Prumo/Scripts/gerar-projeto.sh)
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+.build/
+.swiftpm/
+build/
+
+# Gerados pelo XcodeGen a partir do project.yml (carregam o SEU prefixo e a SUA equipe)
+Prumo/App/iOS/Info.plist
+Prumo/App/iOS/*.entitlements
+Prumo/App/macOS/Info.plist
+Prumo/App/macOS/*.entitlements
+Prumo/Widgets/Info-*.plist
+Prumo/Widgets/*.entitlements
+
+# Configuração pessoal: nunca versionar
+Prumo/Configuracao.local
+Configuracao.local
+*.xcconfig
+!*.xcconfig.exemplo
+
+# Segredos e assinatura: nunca versionar
+*.p8
+*.p12
+*.cer
+*.pem
+*.key
+*.mobileprovision
+*.certSigningRequest
+.env
+.env.*
+
+# Saídas de desenvolvimento (podem conter dados seus)
+passeio.txt
+*.log
+
+# Ferramentas pessoais de agentes e editores
+.claude/
+.agents/
+.cursor/
+skills-lock.json
+
+# macOS
+.DS_Store

@@ -1,0 +1,20 @@
+name: Sugerir uma ideia
+description: Uma melhoria ou recurso novo
+labels: ["ideia"]
+body:
+  - type: markdown
+    attributes:
+      value: "Lembre: o app é pessoal, somente leitura e sem servidor. Não inclua dados reais."
+  - type: textarea
+    id: ideia
+    attributes:
+      label: A ideia e o problema que ela resolve
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmacoes
+    attributes:
+      label: Confirmações
+      options:
+        - label: Não incluí chaves, itemId, extratos nem prints com dados reais.
+          required: true

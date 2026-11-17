@@ -1,0 +1,5 @@
+{"page":1,"total":3,"totalPages":1,"results":[
+ {"id":"inv-cdb","itemId":"11111111-aaaa-4aaa-8aaa-111111111111","type":"FIXED_INCOME","subtype":"CDB","name":"CDB 110% CDI","balance":25870.12,"amountOriginal":24000.00,"amountProfit":1870.12,"annualRate":11.8,"lastMonthRate":0.9,"lastTwelveMonthsRate":11.2,"dueDate":"2027-09-01T00:00:00.000Z","issuer":"Banco Teste","currencyCode":"BRL","date":"2026-10-12T00:00:00.000Z"},
+ {"id":"inv-petr4","itemId":"11111111-aaaa-4aaa-8aaa-111111111111","type":"EQUITY","subtype":"STOCK","name":"Petrobras PN","balance":4608.00,"amount":3960.00,"quantity":120,"value":38.40,"code":"PETR4","currencyCode":"BRL","date":"2026-10-12T00:00:00.000Z"},
+ {"id":"inv-hglg","itemId":"11111111-aaaa-4aaa-8aaa-111111111111","type":"EQUITY","subtype":"REAL_ESTATE_FUND","name":"CSHG Logística","balance":4749.00,"quantity":30,"value":158.30,"code":"HGLG11","currencyCode":"BRL","date":"2026-10-12T00:00:00.000Z"}
+]}
